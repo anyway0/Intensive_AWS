@@ -1,0 +1,14 @@
+kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic shop --from-beginning
+
+kafka-console-consumer.bat --bootstrap-server http://localhost:9092 --topic shop --from-beginning
+
+
+netstat -ano | findstr "PID :9092"
+
+
+netstat -ano | findstr "PID :2181"
+
+
+
+admin3@gkn2019hotmail.onmicrosoft.com
+djkim81@@
